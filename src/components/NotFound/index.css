@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.notfound-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-dark-theme {
+  background-color: #000000;
+}
+.bg-light-theme {
+  background-color: #ffffff;
+}
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.not-image {
+  width: 250px;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 30px;
+}
+.dark-theme {
+  color: #ffffff;
+}
+.light-theme {
+  color: #1e293b;
+}
+.para {
+  font-family: 'roboto';
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+  .para {
+    font-size: 24px;
+  }
+}
